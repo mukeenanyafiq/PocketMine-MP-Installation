@@ -26,6 +26,8 @@ os.system ("wget https://github.com/pmmp/PocketMine-MP/releases/download/3.25.2/
 
 choice = input("Folders and Files has been created, would you like to start the server now? [y/n]: ")
 if choice == 'n' : sys.exit()
-if choice == 'y' : slowprint("Starting the server... If any problems occured, try some fixes you may can look on Google")
+if choice == 'y' : os.system ("clear")
 
-os.system ("./start.sh")
+slowprint("Unable to start the server. Try type './compile.sh' then type './start.sh' to start the server")
+slowprint("Quitting Python....")
+sys.exit()
