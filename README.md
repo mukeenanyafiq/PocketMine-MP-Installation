@@ -1,6 +1,8 @@
 # Hello
 This GitHub repository can made you a Server PocketMine-MP
 
+*On development!*
+
 ### How to Install
 1. Open Termux
 2. Type "pkg install git && python"
