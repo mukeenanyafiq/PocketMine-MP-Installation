@@ -1,7 +1,5 @@
-# Hello
+# Titles
 This GitHub repository can made you a Server PocketMine-MP
-
-*On development!*
 
 ### How to Install
 1. Open Termux
@@ -26,4 +24,14 @@ The installation cannot continue/start if your device is:
 - Didn't installed "git" and "python" packages
 - PHP 7.3/7.4
 
-Otherwise, you can install your server PocketMine-MP with "install_pmmp_x86.py" if your OS is 32-bit
+### How to Install Basic Packages Termux
+1. On the end of the setup, you will be messaged with this message: 'Start install the basics Termux packages? [y/n]:'
+2. If you are ready to install the basics packages, type "y".
+3. You will get a cloning files from repository GitHub named vpphacker/vppbasic
+4. After you successfully quitted the setup, type "cd vppbasic"
+5. Then, type "python vppbasic.py".
+6. Wait until the input y/n appears
+7. If so, type "y" to start the installation of basics packages from Termux
+8. It will start the installation of basics packages
+9. After then, you will get an permission messages. Press "Allow"/"Izinkan" for allowing Termux to see your storage files
+10. Press any key to exit from the setup
