@@ -74,7 +74,6 @@ slowprint("If you want to start the installation with rooted user, Type 'python 
 os.system ("clear")
 choice = input("Start install the basics Termux packages? [y/n]: ")
 if choice == 'n' : os.system ("clear")
-if choice == 'y' : os.system ("cd | git clone https://github.com/vpphacker/vppbasic")
-os.system ("clear")
+if choice == 'y' : os.system ("git clone https://github.com/vpphacker/vppbasic")
 slowprint("Quitting the setup...")
 sys.exit()
