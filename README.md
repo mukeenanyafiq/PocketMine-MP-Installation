@@ -13,14 +13,14 @@ This GitHub repository can made you a Server PocketMine-MP
 
 ### Requirements
 - 64 bit OS Android
-- Termux apps
+- Termux app
 - "git" and "python" packages
 - PHP 8.0
 
 The installation cannot continue/start if your device is:
 
 - 32 bit OS Android (PocketMine-MP will only runs in version 3.22.1)
-- Termux apps
+- Didn't install Termux
 - Didn't installed "git" and "python" packages
 - PHP 7.3/7.4
 
