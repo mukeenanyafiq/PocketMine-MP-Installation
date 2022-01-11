@@ -15,7 +15,7 @@ This GitHub repository can made you a Server PocketMine-MP
 - 64 bit OS Android
 - Termux app
 - "git" and "python" packages
-(Packages can be installed automatically with execute `bash install_python_git.sh`
+(Packages can be installed automatically with execute `bash install_python_git.sh`)
 - PHP 8.0
 
 The installation cannot continue/start if your device is:
