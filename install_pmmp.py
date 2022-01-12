@@ -14,7 +14,7 @@ slowprint("Starting the setup...")
 os.system ("clear")
 
 slowprint("Welcome to PocketMine-MP Installation (64-bit)")
-slowprint("Copyright 2022 KeenGames - PocketMine-Setup v1.3")
+slowprint("Copyright 2022 KeenGames - PocketMine-Setup v1.4")
 print(" ")
 slowprint("-------------------------------------")
 print(" ")
@@ -76,7 +76,7 @@ os.system ("pkg install pkg-config")
 os.system ("pkg install re2c")
 os.system ("clear")
 
-choice = input("Some packages has been installed, some packages cannot be installed, do you want to install source PocketMine-MP? [y/n]: ")
+choice = input("All required packages are ready. Do you want to install source PocketMine-MP? [y/n]: ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("clear")
 
