@@ -11,6 +11,15 @@ This GitHub repository can made you a Server PocketMine-MP
 7. (If you want to check the cloned files, you can use `ls`) Then, type `python install_pmmp.py`
 8. Wait until done and you are ready for your server wizard!
 
+### How to Instanly Run Setup Wizard
+1. Open Termux
+2. Type `pkg install wget`
+3. Wait until it's done
+4. If it's done, type `wget https://bit.ly/3qnEdpr`
+5. Wait until it's done (just only like 1 secs in normal connection)
+6. If it's done, type `bash install_python_git_launch.sh` or `./install_python_git_launch.sh`
+7. Wait until done and you are ready for your server wizard!
+
 ### Requirements
 - 64 bit OS Android
 - Termux app
