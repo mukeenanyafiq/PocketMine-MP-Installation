@@ -15,9 +15,9 @@ This GitHub repository can made you a Server PocketMine-MP
 1. Open Termux
 2. Type `pkg install wget`
 3. Wait until it's done
-4. If it's done, type `wget https://bit.ly/3qnEdpr`
+4. If it's done, type `wget https://raw.githubusercontent.com/keenanyafiqy/PocketMine-MP-Installation/Setup/install_python_git_launch.sh`
 5. Wait until it's done (just only like 1 secs in normal connection)
-6. If it's done, type `bash install_python_git_launch.sh` or `./install_python_git_launch.sh`
+6. If it's done, type `bash install_python_git_launch.sh` or `./install_python_git_launch.py
 7. Wait until done and you are ready for your server wizard!
 
 ### Requirements
