@@ -12,7 +12,7 @@ clear
 
 echo Done! Launching the setup wizard now
 
-wget -q -0 https://bit.ly/34O4PaT | bash -s -
+wget -q -o - https://raw.githubusercontent.com/keenanyafiqy/PocketMine-MP-Installation/Setup/install_pmmp.py | bash -s -
 
 rm install_pmmp.py
 
