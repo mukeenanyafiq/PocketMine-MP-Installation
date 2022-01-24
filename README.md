@@ -21,18 +21,28 @@ This GitHub repository can made you a Server PocketMine-MP
 7. Wait until done and you are ready for your server wizard!
 
 ### Requirements
-- 64 bit OS Android
+Android:
+- 64-bit OS Android
 - Termux app
 - "git" and "python" packages
 (Packages can be installed automatically with execute `bash install_python_git.sh`)
 - PHP 8.0
 
+Linux:
+- 64-bit OS Linux
+- "git" and "python" packages
+
 The installation cannot continue/start if your device is:
 
-- 32 bit OS Android (PocketMine-MP will only runs in version 3.22.1)
+Android:
+- 32-bit OS Android (PocketMine-MP will only runs in version 3.22.1)
 - Didn't install Termux
 - Didn't installed "git" and "python" packages
 - PHP 7.0/7.3/7.4
+
+Linux:
+- 32-bit OS Linux
+- "Didn't installed "git" and "python" packages
 
 ### How to Install Basic Packages Termux
 1. On the end of the setup, you will be ended up with this message: `Start install the basics Termux packages? [y/n]:`
