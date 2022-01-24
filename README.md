@@ -33,7 +33,7 @@ Android:
 
 Linux:
 - 32-bit OS Linux
-- "Didn't installed "git" and "python" packages
+- Didn't installed "git" and "python" packages
 
 ### How to Install Basic Packages Termux
 1. On the end of the setup, you will be ended up with this message: `Start install the basics Termux packages? [y/n]:`
