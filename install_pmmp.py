@@ -14,7 +14,7 @@ slowprint("Starting the setup...")
 os.system ("clear")
 
 slowprint("Welcome to PocketMine-MP Installation (64-bit)")
-slowprint("Copyright 2022 KeenGames - PocketMine-Setup v1.9")
+slowprint("Copyright 2022 KeenGames - PocketMine-Setup v1.0.0")
 print(" ")
 slowprint("-------------------------------------")
 print(" ")
