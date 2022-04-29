@@ -21,7 +21,7 @@ If you on Windows, You need to enable WSL and install Ubuntu in Microsoft Store
 6. If the installation done, type `git clone https://github.com/keenanyafiqy/PocketMine-MP-Installation`
 7. Wait for the clone completed
 8. When the clone completed, type `cd PocketMine-MP-Installation`
-9. Then type `python install_pmmp.py`
+9. Then type `python install_pmmp_linux-windows.py`
 10. Wait until done and you are ready for your server wizard!
 
 ### Requirements
