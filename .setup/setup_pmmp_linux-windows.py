@@ -3,18 +3,25 @@ import os
 import time
 import sys
 
-os.system ("clear")
 def slowprint(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(5. / 100)
 
+def clear():
+    if os.name == 'nt':
+        _ = os.system("cls")
+    else:
+        _ = os.system("clear")
+
+clear()
+
 slowprint("Starting the setup...")
-os.system ("clear")
+clear()
 
 slowprint("Welcome to PocketMine-MP Installation (64-bit) - Linux & Windows")
-slowprint("Copyright 2022 KeenGames - PocketMine-Setup v1.0.0")
+slowprint("Copyright 2022 KeenTeams - PocketMine-Setup v1.0.1")
 print(" ")
 slowprint("-------------------------------------")
 print(" ")
@@ -22,13 +29,13 @@ slowprint("Created by Keenan Yafiq (keenanyafiqy)")
 slowprint("Executed from Python")
 slowprint("This installation will install PocketMine-MP v4.x.x")
 print(" ")
-slowprint("Sometimes packages cannot be downloaded automatically because the packages cannot be located or they're storage is full, so you may needed fast internet connection and many empty storages")
+slowprint("Sometimes package cannot be downloaded automatically because the package cannot be located or users storage is full, so you may needed fast internet connection and empty storages")
 print(" ")
 slowprint("-------------------------------------")
 print(" ")
 choice = input("Do you want to start the installation? [y/n]: ")
 if choice == 'n' : sys.exit()
-if choice == 'y' : os.system ("clear")
+if choice == 'y' : clear()
 
 slowprint("You will install:")
 slowprint("1. make")
@@ -49,7 +56,7 @@ print(" ")
 
 choice = input("Start the setup? (Typing 'n' will cancel the setup!) [y/n]: ")
 if choice == 'n' : sys.exit()
-if choice == 'y' : os.system ("clear")
+if choice == 'y' : clear()
 
 slowprint("Starting setup...")
 slowprint("Installing 14 packages...")
@@ -69,12 +76,11 @@ if choice == 'y' : os.system ("sudo apt install g++")
 os.system ("sudo apt install cmake")
 os.system ("sudo apt install pkg-config")
 os.system ("sudo apt install re2c")
-os.system ("clear")
+clear()
 
 choice = input("All/Some required packages are ready. Do you want to install source PocketMine-MP? [y/n]: ")
 if choice == 'n' : sys.exit()
-if choice == 'y' : os.system ("clear")
-
+if choice == 'y' : clear()
 slowprint("Installing PocketMine-MP....")
 slowprint("Creating folder 'Server'...")
 os.system("mkdir Server")
@@ -82,7 +88,7 @@ os.system("cd Server")
 slowprint("Getting all files from https://get.pmmp.io...")
 os.system ("wget -q -O - https://get.pmmp.io | bash -s -")
 slowprint("Successfully completed the setup. Type './start.sh' to start the server")
-slowprint("This setup cannot start with rooted user and 32-bit OS.")
+slowprint("This setup cannot start with rooted user.")
 slowprint("So on Ubuntu in Windows, you might need to exit from root user")
 choice = input("Exit? The setup succesfully completed. [y]")
 if choice == 'y' : sys.exit()
