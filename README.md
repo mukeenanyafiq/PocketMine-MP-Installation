@@ -1,3 +1,5 @@
+> **09/12/2025 (December 9, 2025)**: I'll admit, this one python script is actually kinda goated, but the inside weren't totally beautifully executed. I'll come back one day if there's a time I'm bored to fix this repository - but for now, this works well enough... for some.
+
 # General
 This GitHub repository can made you a Server PocketMine-MP
 
