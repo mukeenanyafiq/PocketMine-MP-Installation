@@ -30,7 +30,7 @@ def checkostocontinue():
     if platform.system() == 'Windows':
         _ = os.system("python .setup/setup_pmmp_linux-windows.py")
     else:
-        _ = os.system("python .setup/setup_pmmp.py")
+        _ = os.system("python .setup/setup_pmmp_android.py")
 
 clear()
 
